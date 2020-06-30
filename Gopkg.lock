@@ -24,6 +24,23 @@
   revision = "4b04f26287a67f2b08e92187fc03e7946f8f99f7"
 
 [[projects]]
+  digest = "1:8bbcd5553b1b10a94d92e1b44fc74a8f6379ac471e6c03e1fab8c17175cf5389"
+  name = "code.cloudfoundry.org/cli"
+  packages = [
+    "actor/actionerror",
+    "api/cloudcontroller/ccerror",
+    "api/cloudcontroller/ccv2/constant",
+    "api/cloudcontroller/ccv3/constant",
+    "api/uaa",
+    "api/uaa/constant",
+    "api/uaa/internal",
+    "util",
+  ]
+  pruneopts = "NUT"
+  revision = "fb3f929c25adde3149dedf24679137a08610d5ce"
+  version = "v7.0.1"
+
+[[projects]]
   branch = "master"
   digest = "1:d460dfec5d2bb8a053b9145d1f56b2373a1bd0bdaedf8f12ae5bab66da97370a"
   name = "code.cloudfoundry.org/cli-plugin-repo"
@@ -452,7 +469,7 @@
   version = "v1.7.0"
 
 [[projects]]
-  digest = "1:95f09e7b02ad73c56c05479182dba9de59a5576e2acaff2f0b2532369fe14ea0"
+  digest = "1:dd7af639e8d55e994bf4ed06b617907aadebfe91c2a7561b07374b1b57f5a05e"
   name = "github.com/onsi/gomega"
   packages = [
     ".",
@@ -474,8 +491,8 @@
     "types",
   ]
   pruneopts = "NUT"
-  revision = "6be6c439588487cd908a3a700795660c2a16dfec"
-  version = "v1.9.0"
+  revision = "904ac6ab26e9a888bdff3467eea03b6122a1c027"
+  version = "v1.10.1"
 
 [[projects]]
   digest = "1:e0cc8395ea893c898ff5eb0850f4d9851c1f57c78c232304a026379a47a552d0"
