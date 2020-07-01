@@ -24,6 +24,23 @@
   revision = "4b04f26287a67f2b08e92187fc03e7946f8f99f7"
 
 [[projects]]
+  digest = "1:8bbcd5553b1b10a94d92e1b44fc74a8f6379ac471e6c03e1fab8c17175cf5389"
+  name = "code.cloudfoundry.org/cli"
+  packages = [
+    "actor/actionerror",
+    "api/cloudcontroller/ccerror",
+    "api/cloudcontroller/ccv2/constant",
+    "api/cloudcontroller/ccv3/constant",
+    "api/uaa",
+    "api/uaa/constant",
+    "api/uaa/internal",
+    "util",
+  ]
+  pruneopts = "NUT"
+  revision = "fb3f929c25adde3149dedf24679137a08610d5ce"
+  version = "v7.0.1"
+
+[[projects]]
   branch = "master"
   digest = "1:d460dfec5d2bb8a053b9145d1f56b2373a1bd0bdaedf8f12ae5bab66da97370a"
   name = "code.cloudfoundry.org/cli-plugin-repo"
@@ -368,7 +385,7 @@
   name = "github.com/lunixbochs/vtclean"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "88cfb0c2efe8ed7b0ccf0af83db39359829027bb"
+  revision = "2f98d74584110f7435edffc39785e73a47bc9cae"
 
 [[projects]]
   branch = "master"
