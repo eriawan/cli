@@ -24,6 +24,23 @@
   revision = "4b04f26287a67f2b08e92187fc03e7946f8f99f7"
 
 [[projects]]
+  digest = "1:8bbcd5553b1b10a94d92e1b44fc74a8f6379ac471e6c03e1fab8c17175cf5389"
+  name = "code.cloudfoundry.org/cli"
+  packages = [
+    "actor/actionerror",
+    "api/cloudcontroller/ccerror",
+    "api/cloudcontroller/ccv2/constant",
+    "api/cloudcontroller/ccv3/constant",
+    "api/uaa",
+    "api/uaa/constant",
+    "api/uaa/internal",
+    "util",
+  ]
+  pruneopts = "NUT"
+  revision = "fb3f929c25adde3149dedf24679137a08610d5ce"
+  version = "v7.0.1"
+
+[[projects]]
   branch = "master"
   digest = "1:d460dfec5d2bb8a053b9145d1f56b2373a1bd0bdaedf8f12ae5bab66da97370a"
   name = "code.cloudfoundry.org/cli-plugin-repo"
@@ -239,6 +256,14 @@
   revision = "250da0e0e68ce3367b4302f34218f6c064eb9559"
 
 [[projects]]
+  digest = "1:f98a4ae92bd09599922c0f5c8133a951ac1d61dba4589e4347759145dec08c24"
+  name = "github.com/creack/pty"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "2a38352e8b4d7ab6c336eef107e42a55e72e7fbc"
+  version = "v1.1.11"
+
+[[projects]]
   digest = "1:b261184aa7fc63d6a1020b8bb386fcf6d0a7f37262dc5102fc9db4739fa17f18"
   name = "github.com/cyphar/filepath-securejoin"
   packages = ["."]
@@ -355,12 +380,12 @@
   revision = "c0795c8afcf41dd1d786bebce68636c199b3bb45"
 
 [[projects]]
-  digest = "1:ad12bc5658839e7c9ffb20bd84624c4d3fc2264f212c00188fc10cc6aba3c42b"
+  digest = "1:797f9322a4864f6a4781ab80433dcf248581ed2f31bd5e152f50bd3a3a8c5ad8"
   name = "github.com/kr/pty"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "95d05c1eef33a45bd58676b6ce28d105839b8d0b"
-  version = "v1.0.1"
+  revision = "24b51915630e1d9d3c6adf15a3a96796bbc3cd43"
+  version = "v1.1.8"
 
 [[projects]]
   branch = "master"
