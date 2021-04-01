@@ -24,6 +24,23 @@
   revision = "4b04f26287a67f2b08e92187fc03e7946f8f99f7"
 
 [[projects]]
+  digest = "1:ecc556f07aa2bcfa733f3740b1778447ef89c9964d21ab56502a0f6914bd675a"
+  name = "code.cloudfoundry.org/cli"
+  packages = [
+    "actor/actionerror",
+    "api/cloudcontroller/ccerror",
+    "api/cloudcontroller/ccv2/constant",
+    "api/cloudcontroller/ccv3/constant",
+    "api/uaa",
+    "api/uaa/constant",
+    "api/uaa/internal",
+    "util",
+  ]
+  pruneopts = "NUT"
+  revision = "be4a5ce2b96eb29888f44abf1648bc0176753c0b"
+  version = "v7.2.0"
+
+[[projects]]
   branch = "master"
   digest = "1:d460dfec5d2bb8a053b9145d1f56b2373a1bd0bdaedf8f12ae5bab66da97370a"
   name = "code.cloudfoundry.org/cli-plugin-repo"
@@ -401,11 +418,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:70ef8268170621826f8c111ac1674afe75136f526f449453b4a6631c6dba1946"
+  digest = "1:bb1047e0027b4e54b050634aa741d3d9fe4f026ccefb5d31f2c07a5f651ae125"
   name = "github.com/mattn/go-runewidth"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "703b5e6b11ae25aeb2af9ebb5d5fdf8fa2575211"
+  revision = "43a826dcfbd153f169a11fce22952a327a265edc"
 
 [[projects]]
   branch = "master"
@@ -492,6 +509,14 @@
   pruneopts = "NUT"
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
   version = "v0.8.0"
+
+[[projects]]
+  digest = "1:e644b02192accfca6f351cf2611df249d502ab75f8cebb2e8b3976a3d6ee75f8"
+  name = "github.com/rivo/uniseg"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "75711fccf6a3e85bc74c241e2dddd06a9bc9e53d"
+  version = "v0.2.0"
 
 [[projects]]
   branch = "master"
