@@ -24,12 +24,29 @@
   revision = "4b04f26287a67f2b08e92187fc03e7946f8f99f7"
 
 [[projects]]
+  digest = "1:ecc556f07aa2bcfa733f3740b1778447ef89c9964d21ab56502a0f6914bd675a"
+  name = "code.cloudfoundry.org/cli"
+  packages = [
+    "actor/actionerror",
+    "api/cloudcontroller/ccerror",
+    "api/cloudcontroller/ccv2/constant",
+    "api/cloudcontroller/ccv3/constant",
+    "api/uaa",
+    "api/uaa/constant",
+    "api/uaa/internal",
+    "util",
+  ]
+  pruneopts = "NUT"
+  revision = "be4a5ce2b96eb29888f44abf1648bc0176753c0b"
+  version = "v7.2.0"
+
+[[projects]]
   branch = "master"
   digest = "1:d460dfec5d2bb8a053b9145d1f56b2373a1bd0bdaedf8f12ae5bab66da97370a"
   name = "code.cloudfoundry.org/cli-plugin-repo"
   packages = ["web"]
   pruneopts = "NUT"
-  revision = "af98c4be9b856caf8d9999cb718d6abbc9cc004b"
+  revision = "db3c4d76ff9234dee45bd86b29616547ce35f375"
 
 [[projects]]
   digest = "1:41531922c7f47d5157308b4dd1abc6142c4c583845ce424ed9664db867fa48cf"
