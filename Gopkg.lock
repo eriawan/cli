@@ -24,6 +24,23 @@
   revision = "4b04f26287a67f2b08e92187fc03e7946f8f99f7"
 
 [[projects]]
+  digest = "1:ecc556f07aa2bcfa733f3740b1778447ef89c9964d21ab56502a0f6914bd675a"
+  name = "code.cloudfoundry.org/cli"
+  packages = [
+    "actor/actionerror",
+    "api/cloudcontroller/ccerror",
+    "api/cloudcontroller/ccv2/constant",
+    "api/cloudcontroller/ccv3/constant",
+    "api/uaa",
+    "api/uaa/constant",
+    "api/uaa/internal",
+    "util",
+  ]
+  pruneopts = "NUT"
+  revision = "be4a5ce2b96eb29888f44abf1648bc0176753c0b"
+  version = "v7.2.0"
+
+[[projects]]
   branch = "master"
   digest = "1:d460dfec5d2bb8a053b9145d1f56b2373a1bd0bdaedf8f12ae5bab66da97370a"
   name = "code.cloudfoundry.org/cli-plugin-repo"
@@ -452,7 +469,7 @@
   version = "v1.7.0"
 
 [[projects]]
-  digest = "1:95f09e7b02ad73c56c05479182dba9de59a5576e2acaff2f0b2532369fe14ea0"
+  digest = "1:d4f8fa197d8d61b1a0fce3f6112f88e10c4a28625621e270946fbd542aa536fb"
   name = "github.com/onsi/gomega"
   packages = [
     ".",
@@ -464,6 +481,7 @@
     "gstruct/errors",
     "internal/assertion",
     "internal/asyncassertion",
+    "internal/defaults",
     "internal/oraclematcher",
     "internal/testingtsupport",
     "matchers",
@@ -474,8 +492,8 @@
     "types",
   ]
   pruneopts = "NUT"
-  revision = "6be6c439588487cd908a3a700795660c2a16dfec"
-  version = "v1.9.0"
+  revision = "dbc6ecdcc526d81592dab902de6cbaf7be9a8a13"
+  version = "v1.13.0"
 
 [[projects]]
   digest = "1:e0cc8395ea893c898ff5eb0850f4d9851c1f57c78c232304a026379a47a552d0"
@@ -625,17 +643,6 @@
   ]
   pruneopts = "NUT"
   revision = "929e72ca90deac4784bbe451caf10faa5b256ebe"
-
-[[projects]]
-  branch = "master"
-  digest = "1:325a1b73817aa79fc85f10376ed41ea607f7dd7f6c6bfa46df6a28ef2857941f"
-  name = "golang.org/x/xerrors"
-  packages = [
-    ".",
-    "internal",
-  ]
-  pruneopts = "NUT"
-  revision = "9bdfabe68543c54f90421aeb9a60ef8061b5b544"
 
 [[projects]]
   branch = "master"
